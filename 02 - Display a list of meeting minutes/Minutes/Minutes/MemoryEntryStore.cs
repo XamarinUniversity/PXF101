@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 
 namespace Minutes
 {
-	class MemoryEntryStore : IEntryStore
+	public class MemoryEntryStore : IEntryStore
 	{
 		Dictionary<string, Entry> entries = new Dictionary<string, Entry>();
 
